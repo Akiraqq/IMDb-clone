@@ -6,7 +6,7 @@ const Card = ({ results }) => {
   return (
     <Link
       href={`/movie/${results.id}`}
-      className="cursor-pointer sm: p-3 sm:hover:shadow-slate-400 sm:shadow-md rounded-lg sm:border sm:border-slate-400 sm:m-2 transition-shadow duration-200 group"
+      className="cursor-pointer sm:p-3 sm:hover:shadow-slate-400 sm:shadow-md rounded-lg  sm:border sm:border-slate-400 sm:m-2 transition-shadow duration-200 group"
     >
       <Image
         src={`http://image.tmdb.org/t/p/original/${
