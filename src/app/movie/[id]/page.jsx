@@ -19,6 +19,7 @@ const MoviePage = async ({ params }) => {
           className="rounded-lg"
           placeholder="blur"
           blurDataURL="/spinner.svg"
+          alt="Some image"
         />
         <div className="p-2">
           <h2 className="text-lg mb-3 font-bold">{movie.title}</h2>
